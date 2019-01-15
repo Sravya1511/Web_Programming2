@@ -1,0 +1,67 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="Json.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<h1 style = "color:red; text-align: center;" id ="welcome"> </h1>
+<body onload= "display(0)">
+	<div class = "Quiz" style = "font-size: 16px; text-align: center; background-color: lightyellow">
+
+        <p id = "q1" style = "font-size: 25px"> </p>
+        <br>
+        <input type = "button" id = "option1" class = "btn btn-info" data-toggle = "collapse" data-target = "#demo2">
+        </input><br>
+
+        <br>
+        <input type = "button" id = "option2" class = "btn btn-info" data-toggle = "collapse" data-target = "#demo3">
+        </input><br>
+
+        <br>
+        <button type = "button" class = "btn btn-info" data-toggle = "collapse" data-target = "#demo1">HINT</button>
+
+
+	    <div id = "demo1" class = "collapse">
+	    <div class="alert alert-warning alert-dismissible fade in" style = "width: 1540px">
+	        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+	    <strong> </strong> <p id = "hint1"> </p>
+	    </div>
+	    </div> <br>
+
+
+        <div id = "demo2" class = "collapse">
+	    <div class="alert alert-success alert-dismissible fade in" style = "width: 1540px">
+	        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+	    <strong> </strong> correct!  </p>
+	    </div>
+	    </div> <br>
+
+
+        <div id = "demo3" class = "collapse">
+	    <div class="alert alert-danger alert-dismissible fade in" style = "width: 1540px">
+	        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+	    <strong> </strong>  Wrong!! </p>
+	    </div>
+	    </div> <br>
+
+
+        <div>
+	    	<input type="button" value="prev" style="float: left" onclick="prev()"></input>
+	    </div>
+	    <div>
+	    	<input type="button" value="next" style="float: right" onclick="next()"></input>
+	    </div>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
