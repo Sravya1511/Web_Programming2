@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  height: 50%
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/*div.solid {}*/
+div.space { margin-top: 100px; border-style: solid;}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+</style>
+<script src="exam.js"></script>
+</head>
+
+<body>
+  <div class = "space">
+  <h2> Login Page </h2>
+
+<form action="/action_page.php" onsubmit="return myFunction()">
+  UserName :<br> <input type="text" id="name" placeholder="Enter Username" name="name"><br>
+
+  PassWord: <br> <input type="password" id="pass" placeholder="Enter password"  name="pass"><br>
+
+  Comment - Box: <br> <input type="text" id="comment"
+  placeholder="Enter Comment....." name="comment"><br><br>
+  <input type="submit" value="Submit">
+
+  <!-- <div id="name"> </div> -->
+  <div id="feedback"> </div>
+</form>
+
+<script>
+
+</script>
+</div>
+</body>
+</html>
